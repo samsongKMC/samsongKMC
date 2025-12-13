@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼송한의원</title>
+    <style>
+        /* 🎨 CSS (스타일) 영역 */
+        body {
+            font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F8F4;
+            color: #333;
+        }
+        h1, h2, h3 { color: #1E8449; }
+        
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* 내비게이션 (메뉴) 스타일 */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #1E8449;
+            margin: 0 -20px;
+        }
+        nav ul li {
+            display: inline-block;
+        }
+        nav ul li a {
+            display: block;
+            padding: 15px 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background-color: #2ECC71;
+        }
+        
+        /* 섹션 구분 및 주소 강조 */
+        section { padding: 40px 0; border-bottom: 1px dashed #DDD; }
+        .address-box {
+            padding: 15px; border: 1px solid #1E8449; background-color: #ECF8EE;
+            text-align: center; font-size: 1.1em; font-weight: bold;
+        }
+
+        /* 📞 전화 버튼 스타일 */
+        .call-button {
+            display: block;
+            width: 80%; /* 버튼 너비 조정 */
+            max-width: 350px;
+            margin: 20px auto 30px auto;
+            padding: 15px;
+            background-color: #E74C3C; /* 눈에 띄는 빨간색 계열 */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+        .call-button:hover {
+            background-color: #C0392B;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>삼송한의원</h1>
+            <p>365일 정성을 다하는 건강 지킴이, 전통을 바탕으로 현대인의 건강을 책임집니다.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#intro">한의원 소개</a></li>
+                <li><a href="#treatment">진료 안내</a></li>
+                <li><a href="#location">오시는 길</a></li>
+            </ul>
+        </nav>
+
+        <section id="intro">
+            <h2>🌿 한의원 소개</h2>
+            <p><strong>원장 인사말:</strong> 환자 한 분 한 분을 내 가족처럼 생각하며, 과학적인 진단과 맞춤 한방 치료를 통해 근본적인 건강 회복을 돕겠습니다.</p>
+        </section>
+
+        <section id="treatment">
+            <h2>🩺 진료 안내</h2>
+            <p><strong>진료 과목:</strong> 통증 클리닉, 여성 질환, 소아 성장, 만성 피로, 수험생 클리닉.</p> 
+            
+            <h3>진료 시간</h3>
+            <table border="1" width="100%" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+                <tr> <th>요일</th> <th>진료 시간</th> <th>점심 시간</th> </tr>
+                <tr> <td>월, 화, 목, 금</td> <td>09:30 ~ 19:00</td> <td>13:00 ~ 14:00</td> </tr>
+                <tr> <td>토요일</td> <td>09:30 ~ 15:30</td> <td>(점심 시간 없이 진료)</td> </tr>
+                <tr> <td>수요일, 일요일, 공휴일</td> <td colspan="2">휴진</td> </tr>
+            </table>
+            
+            <a href="tel:029788041" class="call-button">
+                📞 진료 예약 전화하기 (02-978-8041)
+            </a>
+            </section>
+
+        <section id="location">
+            <h2>🗺️ 오시는 길</h2>
+            <div class="address-box">
+                <p><strong>주소: 서울 노원구 동일로 1078 (2층)</strong></p>
+                <p><strong>(공릉역 1번 출구 앞 2층)</strong></p>
+            </div>
+            <p style="margin-top: 15px;">
+                🚗 **주차 안내:** 건물 뒤 택시 주차장으로 진입하여 좌측 일반 차량 주차 공간에 주차하시면 됩니다.
+            </p>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://map.kakao.com/?urlX=516227&urlY=1146195&urlLevel=1&map_type=TYPE_MAP&map_hybrid=false" target="_blank"><img width="504" height="310" src="https://staticmap.kakao.com/map/mapservice?FORMAT=PNG&SCALE=0.625&MX=516226&MY=1146195&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border:1px solid #ccc"></a><div class="hide" style="overflow:hidden;padding:7px 11px;border:1px solid #dfdfdf;border-color:rgba(0,0,0,.1);border-radius:0 0 2px 2px;background-color:#f9f9f9;width:482px;"><strong style="float: left;"><img src="//t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵"></strong><div style="float: right;position:relative"><a style="font-size:12px;text-decoration:none;float:left;height:15px;padding-top:1px;line-height:15px;color:#000" target="_blank" href="https://map.kakao.com/?urlX=516227&urlY=1146195&urlLevel=1&map_type=TYPE_MAP&map_hybrid=false">지도 크게 보기</a></div></div>
+            </div>
+            </section>
+
+        <footer>
+            <p>삼송한의원 | 주소: 서울 노원구 동일로 1078 | TEL: 02-978-8041 | 사업자등록번호: 217-90-17736</p>
+        </footer>
+
+    </div>
+</body>
+</html>
